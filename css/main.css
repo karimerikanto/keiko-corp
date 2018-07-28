@@ -100,18 +100,18 @@ header {
   /* change the calc height to a percentage height to get alternate responsive behavior*/
 }
 
-header .logo{
+.logo{
 	display: table-cell;
 	margin: 45px 100px 0 0;
 }
 
-header .logo img{
+.logo img{
 	width: 200px;
 	border-radius: 5px 20px 5px;
 	box-shadow: 0 8px 6px -6px black;
 }
 
-header .burger_icon{
+.burger_icon{
 	display: none;
 	float: right;
 	background: #ffffff;
@@ -129,11 +129,11 @@ header .burger_icon{
 	margin: 45px 10px 0 0;
 }
 
-header .burger_icon:hover{
+.burger_icon:hover{
 	cursor: pointer;
 }
 
-header .burger_icon.active{
+.burger_icon.active{
 	background: #359663;
 	color: #ffffff;
 }
